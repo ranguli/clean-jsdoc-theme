@@ -1,14 +1,11 @@
 # prismarine-jsdoc-theme
-[![Stars](https://img.shields.io/github/stars/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme) [![Fork](https://img.shields.io/github/forks/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/fork) ![Version](https://img.shields.io/badge/version-2.2.11-%23007bff) [![Issues Open](https://img.shields.io/github/issues/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/issues) [![Isses Closed](https://img.shields.io/github/issues-closed/ankitskvmdam/clean-jsdoc-theme?color=%234caf50)](https://github.com/ankitskvmdam/clean-jsdoc-theme/issues?q=is%3Aissue+is%3Aclosed) [![Contributors](https://img.shields.io/github/contributors/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/graphs/contributors) [![npm downloads](https://img.shields.io/npm/dt/clean-jsdoc-theme)](https://www.npmjs.com/package/clean-jsdoc-theme) [![lisence](https://img.shields.io/github/license/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/LICENSE) [![Website Of/ficial](https://img.shields.io/website?up_message=official&url=https%3A%2F%2Fankdev.me%2Fclean-jsdoc-theme)](https://ankdev.me/clean-jsdoc-theme/index.html) [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-english-%234caf50)](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/CODE_OF_CONDUCT.md)
+[![Stars](https://img.shields.io/github/stars/ranguli/prismarine-jsdoc-theme)](https://github.com/ranguli/prismarine-jsdoc-theme) [![Fork](https://img.shields.io/github/forks/ranguli/prismarine-jsdoc-theme)](https://github.com/ranguli/prismarine-jsdoc-theme/fork) ![Version](https://img.shields.io/badge/version-2.3.12-%23007bff) [![Issues Open](https://img.shields.io/github/issues/ranguli/prismarine-jsdoc-theme)](https://github.com/ranguli/prismarine-jsdoc-theme/issues) [![Isses Closed](https://img.shields.io/github/issues-closed/ranguli/prismarine-jsdoc-theme?color=%234caf50)](https://github.com/ranguli/prismarine-jsdoc-theme/issues?q=is%3Aissue+is%3Aclosed) [![Contributors](https://img.shields.io/github/contributors/ranguli/prismarine-jsdoc-theme)](https://github.com/ranguli/prismarine-jsdoc-theme/graphs/contributors) [![npm downloads](https://img.shields.io/npm/dt/prismarine-jsdoc-theme)](https://www.npmjs.com/package/prismarine-jsdoc-theme) [![lisence](https://img.shields.io/github/license/ranguli/prismarine-jsdoc-theme)](https://github.com/ranguli/prismarine-jsdoc-theme/blob/master/LICENSE)
+
 <br>
-A beautifully crafted theme/template for JSDoc 3. We have built this theme/template to bring the best user experience. This theme/template looks and feels like a premium theme/template. This is a fully mobile responsive theme and also fully customizable theme (for more look below in <a href="#features">feature section</a>).<br>
 
-We give extra care on every part of this theme/template, like instead of using a simple search mechanism we have used one of the most advance search technology <a href="https://fusejs.io/">Fuse.js</a>.<br>
+PrismarineJS theme for JSDoc
 
-Although, we have given extra care on every part, we know that there might be some part that we didn't cover in our documentation or there might be some bug in our code or there might some feature missing. Feel free to raise <a href="https://github.com/ankitskvmdam/clean-jsdoc-theme/issues">issues</a>, we have a very proactive community ready to solve issues as soon as possible. <br>
-Live demo: https://ankdev.me/clean-jsdoc-theme/index.html
-
-### Demo screen
+### Screenshots
 ![screen1](./screenshots/screen1.png)
 ![screen2](./screenshots/screen2.png)
 ![screen3](./screenshots/screen3.png)
@@ -19,14 +16,14 @@ Live demo: https://ankdev.me/clean-jsdoc-theme/index.html
 
 On your command line type
 ```bash
-npm install clean-jsdoc-theme
+npm install prismarine-jsdoc-theme
 ```
 
 ## Usage
 Clone repository to your designated jsdoc template directory, then
 
 ```bash
-jsdoc entry-file.js -t path/to/clean-jsdoc-theme
+jsdoc entry-file.js -t path/to/prismarine-jsdoc-theme
 ```
 
 ## Node.js Dependency
@@ -41,7 +38,7 @@ In your `jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/clean-jsdoc-theme"
+  "template": "node_modules/prismarine-jsdoc-theme"
 }
 ```
 
@@ -65,7 +62,7 @@ In your `jsdoc.json` file, add a template option.
         "destination": "docs/",
         "recurse": true,
         "verbose": true,
-        "template": "./node_modules/clean-jsdoc-theme"
+        "template": "./node_modules/prismarine-jsdoc-theme"
     }
 }
 ```
@@ -80,7 +77,7 @@ You can pass an object called `theme_opts` under `opts` for more options like:
     Default options
   */
   "theme_opts":{
-    "title": "clean-jsdoc-theme",
+    "title": "prismarine-jsdoc-theme",
     /*
       Instead of only string you can pass html element like
       <img src="src to your img relative to the output path" class="my-custom-class"/>
@@ -99,7 +96,7 @@ You can pass an object called `theme_opts` under `opts` for more options like:
   "menu": [
     {
       "title": "Website", //You have to give title otherwise you get error.
-      "link": "https://ankdev.me/clean-jsdoc-theme/index.html", // You have to give link otherwise you get error.
+      "link": "https://ankdev.me/prismarine-jsdoc-theme/index.html", // You have to give link otherwise you get error.
       // Below properties are optional.
       "target": "_blank",
       "class": "some-class",
@@ -107,7 +104,7 @@ You can pass an object called `theme_opts` under `opts` for more options like:
     },
     {
       "title": "Github",
-      "link": "https://github.com/ankitskvmdam/clean-jsdoc-theme/",
+      "link": "https://github.com/ranguli/prismarine-jsdoc-theme/",
       "target": "_blank",
       "class": "some-class",
       "id": "some-id"
@@ -140,24 +137,18 @@ You can pass an object called `theme_opts` under `opts` for more options like:
 }
 ```
 
-## Bug fix [version 2.2.11]
-* @fires breaks the layout [issue: [#38](https://github.com/ankitskvmdam/clean-jsdoc-theme/issues/38)] [fixes: [#39](https://github.com/ankitskvmdam/clean-jsdoc-theme/pull/39)] by[@riksnelders](https://github.com/riksnelders)
-
 ## Developing
 
-Before starting please go through our [contributing guide](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/CONTRIBUTING.md).
-
 ```bash
-git clone https://github.com/ankitskvmdam/clean-jsdoc-theme.git
-cd clean-jsdoc-theme
+git clone https://github.com/ranguli/prismarine-jsdoc-theme.git
+cd prismarine-jsdoc-theme
 npm install
 npm run test
 ```
 `npm run test` will generate files in output folder.
 
 ## Contact
-If you like our work, then give us a <a href="https://github.com/ankitskvmdam/clean-jsdoc-theme" data-icon="octicon-star" aria-label="Star ankitskvmdam/clean-jsdoc-theme on GitHub">star</a>. This will act as a driving force to add new feature more frequently. <br>
-Mail us at: hello@ankdev.me <br>
+Please support the upstream version of this repository, by giving them a <a href="https://github.com/ankitskvmdam/clean-jsdoc-theme" data-icon="octicon-star" aria-label="Star ankitskvmdam/clean-jsdoc-theme on GitHub">star</a>.
 
 
 ## License

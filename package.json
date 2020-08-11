@@ -1,29 +1,28 @@
 {
-  "name": "clean-jsdoc-theme",
-  "version": "2.2.11",
-  "description": "A beautifully crafted theme/template for JSDoc 3. This theme/template looks and feels like a premium theme/template. This is a fully mobile responsive theme and also fully customizable theme.",
+  "name": "prismarine-jsdoc-theme",
+  "version": "2.3.12",
+  "description": "",
   "main": "publish.js",
   "scripts": {
     "test": "node_modules/jsdoc/jsdoc.js -c jsdoc-config.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ankitskvmdam/clean-jsdoc-theme.git"
+    "url": "git+https://github.com/ranguli/prismarine-jsdoc-theme.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ankitskvmdam/clean-jsdoc-theme/issues"
+    "url": "https://github.com/ranguli/prismarine-jsdoc-theme/issues"
   },
-  "homepage": "https://ankdev.me/clean-jsdoc-theme/index.html",
+  "homepage": "https://github.com/ranguli/prismarine-jsdoc-theme/index.html",
   "dependencies": {
     "jsdoc": "^3.6.5"
   },
   "keywords": [
     "jsdoc",
     "template",
-    "jsdoc-template",
-    "javascript documentation",
-    "customizable jsdoc theme / template"
+    "prismarinejs",
+    "mineflayer"
   ]
 }
