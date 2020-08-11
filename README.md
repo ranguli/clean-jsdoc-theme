@@ -1,5 +1,5 @@
-# clean-jsdoc-theme
-[![Stars](https://img.shields.io/github/stars/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme) [![Fork](https://img.shields.io/github/forks/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/fork) ![Version](https://img.shields.io/badge/version-2.2.11-%23007bff) [![Issues Open](https://img.shields.io/github/issues/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/issues) [![Isses Closed](https://img.shields.io/github/issues-closed/ankitskvmdam/clean-jsdoc-theme?color=%234caf50)](https://github.com/ankitskvmdam/clean-jsdoc-theme/issues?q=is%3Aissue+is%3Aclosed) [![Contributors](https://img.shields.io/github/contributors/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/graphs/contributors) [![npm downloads](https://img.shields.io/npm/dt/clean-jsdoc-theme)](https://www.npmjs.com/package/clean-jsdoc-theme) [![Build Status](https://travis-ci.org/ankitskvmdam/clean-jsdoc-theme.svg?branch=production)](https://travis-ci.org/ankitskvmdam/clean-jsdoc-theme) [![lisence](https://img.shields.io/github/license/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/LICENSE) [![Website Of/ficial](https://img.shields.io/website?up_message=official&url=https%3A%2F%2Fankdev.me%2Fclean-jsdoc-theme)](https://ankdev.me/clean-jsdoc-theme/index.html) [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-hindi-%23007bff)](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/CODE_OF_CONDUCT_HINDI.md) [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-english-%234caf50)](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/CODE_OF_CONDUCT.md)
+# prismarine-jsdoc-theme
+[![Stars](https://img.shields.io/github/stars/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme) [![Fork](https://img.shields.io/github/forks/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/fork) ![Version](https://img.shields.io/badge/version-2.2.11-%23007bff) [![Issues Open](https://img.shields.io/github/issues/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/issues) [![Isses Closed](https://img.shields.io/github/issues-closed/ankitskvmdam/clean-jsdoc-theme?color=%234caf50)](https://github.com/ankitskvmdam/clean-jsdoc-theme/issues?q=is%3Aissue+is%3Aclosed) [![Contributors](https://img.shields.io/github/contributors/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/graphs/contributors) [![npm downloads](https://img.shields.io/npm/dt/clean-jsdoc-theme)](https://www.npmjs.com/package/clean-jsdoc-theme) [![lisence](https://img.shields.io/github/license/ankitskvmdam/clean-jsdoc-theme)](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/LICENSE) [![Website Of/ficial](https://img.shields.io/website?up_message=official&url=https%3A%2F%2Fankdev.me%2Fclean-jsdoc-theme)](https://ankdev.me/clean-jsdoc-theme/index.html) [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-english-%234caf50)](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/CODE_OF_CONDUCT.md)
 <br>
 A beautifully crafted theme/template for JSDoc 3. We have built this theme/template to bring the best user experience. This theme/template looks and feels like a premium theme/template. This is a fully mobile responsive theme and also fully customizable theme (for more look below in <a href="#features">feature section</a>).<br>
 
@@ -71,7 +71,7 @@ In your `jsdoc.json` file, add a template option.
 ```
 
 ## Features
-We believe in giving freedom to the developer, that's why we have given many options to 
+We believe in giving freedom to the developer, that's why we have given many options to
 the developer to customize this theme according to their needs.
 You can pass an object called `theme_opts` under `opts` for more options like:
 ```json5
@@ -80,17 +80,17 @@ You can pass an object called `theme_opts` under `opts` for more options like:
     Default options
   */
   "theme_opts":{
-    "title": "clean-jsdoc-theme", 
-    /* 
-      Instead of only string you can pass html element like 
+    "title": "clean-jsdoc-theme",
+    /*
+      Instead of only string you can pass html element like
       <img src="src to your img relative to the output path" class="my-custom-class"/>
-      Path must be relative to the output file (relative to generated html files.) you 
+      Path must be relative to the output file (relative to generated html files.) you
       can use the absolute path.
-      Note: If you use html the default overwrite. Also for custom class you have to create 
+      Note: If you use html the default overwrite. Also for custom class you have to create
       a class using create_style.This is shown below.
     */
 
-   "filter": false, /*  The default value is true. This will turn the color of image white. 
+   "filter": false, /*  The default value is true. This will turn the color of image white.
       If you did not want any
       filter set it to false.
    */
@@ -113,19 +113,19 @@ You can pass an object called `theme_opts` under `opts` for more options like:
       "id": "some-id"
     }
   ],
-  
+
   // You can pass meta options also
   "meta": [
-      "<meta name=\"author\" content=\"Ankit Kumar\">", 
+      "<meta name=\"author\" content=\"Ankit Kumar\">",
       "<meta name=\"description\" content=\"Best Clean and minimal JSDoc 3 Template / Theme\">"
     ],
 
   "search": false, //This option is for either showing or hiding the search. By default it is true.
-  
+
   // You can create custom style which will overwrite the exisiting class property.
   "create_style": "nav{background: yellow}" +     // This will change the background color of sidebar.
                   ".my-custom-class{ filter: brightness(10) grayscale(100%)}", // This will apply filter to my-custom-class
-  
+
   //You can add path of your style file. Note it must be relative to your output file. (relative to generated html files.)
   "add_style_path": ["../custom.css"], // Pass array of path or url
 
@@ -134,8 +134,8 @@ You can pass an object called `theme_opts` under `opts` for more options like:
 
   // You can add path of your script file. Note it must be relative to your output file. (relative to generated html files.)
   "add_script_path": ["../custom.js"], // Pass array of path or url
-  
-  "footer": "This is footer",   // Here again you can pass html element 
+
+  "footer": "This is footer",   // Here again you can pass html element
   }
 }
 ```
@@ -147,7 +147,7 @@ You can pass an object called `theme_opts` under `opts` for more options like:
 
 Before starting please go through our [contributing guide](https://github.com/ankitskvmdam/clean-jsdoc-theme/blob/master/CONTRIBUTING.md).
 
-```bash 
+```bash
 git clone https://github.com/ankitskvmdam/clean-jsdoc-theme.git
 cd clean-jsdoc-theme
 npm install

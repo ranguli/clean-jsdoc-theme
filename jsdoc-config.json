@@ -22,10 +22,10 @@
 		"recurse": true,
 		"template": "./",
 		"theme_opts": {
-			"title": "clean-jsdoc-theme",
-			"footer": "Fork: <a href='https://github.com/ankitskvmdam/clean-jsdoc-theme'>https://github.com/ankitskvmdam/clean-jsdoc-theme</a>",
+			"title": "prismarine-jsdoc-theme",
+			"footer": "Fork: <a href='https://github.com/ranguli/prismarine-docjs-theme'>https://github.com/ranguli/prismarine-docjs-theme",
 			"meta": [
-				"<meta name=\"author\" content=\"Ankit Kumar\">", 
+				"<meta name=\"author\" content=\"ranguli\">",
 				"<meta name=\"description\" content=\"A beautifully crafted theme/template for JSDoc 3.\">"
 			]
 		}
