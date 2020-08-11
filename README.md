@@ -9,10 +9,10 @@ Although, we have given extra care on every part, we know that there might be so
 Live demo: https://ankdev.me/clean-jsdoc-theme/index.html
 
 ### Demo screen
-![Screen-1](./example/screen-1.png)
-![Screen-2](./example/screen-2.png)
-![Screen-3](./example/screen-3.png)
-![Screen-4](./example/screen-4.png)
+![screen1](./screenshots/screen1.png)
+![screen2](./screenshots/screen2.png)
+![screen3](./screenshots/screen3.png)
+![screen4](./screenshots/screen4.png)
 
 ## Install
 > Note you must have `npm` installed on your machine.
